@@ -3,7 +3,6 @@ const isObject = value => {
 };
 
 // Function to compare a model and an object. If object has all nested properties of model, it returns true.
-
 const isObjectMatchingModel = (obj1, obj2) => {
     let isTheSame = true;
     const keys = Object.keys(obj1);
