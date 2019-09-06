@@ -1,0 +1,16 @@
+{
+  "name": "isobjectmatchingmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.test.js",
+    "test:watch": "nodemon src/index.test.js",
+    "publish": "npm run test && npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
